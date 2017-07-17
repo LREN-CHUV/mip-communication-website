@@ -1,0 +1,16 @@
+{
+  "name": "mip-communication-website",
+  "version": "0.5.0",
+  "description": "The landing website that presents MIP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/gatsby develop"
+  },
+  "author": "james.nolan@chuv.ch",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^1.2.0",
+    "gatsby-link": "^1.0.9"
+  }
+}
