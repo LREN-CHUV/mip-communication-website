@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "gatsby": "^1.2.0",
-    "gatsby-link": "^1.0.9"
+    "gatsby-link": "^1.0.9",
+    "warning": "^3.0.0"
   }
 }
