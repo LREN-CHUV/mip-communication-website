@@ -1,10 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import groupBy from 'lodash.groupby'
 import Section from '../components/Section'
+import Member from '../components/Member'
 
 const IndexPage = ({ data }) => {
   const sections = data.allContentfulOverviewSection.edges
   const members = data.allContentfulTeamMember.edges
+  const groups = groupBy(members, 'node.group')
 
   return (
     <div>
@@ -14,6 +17,22 @@ const IndexPage = ({ data }) => {
           title={section.node.title}
           content={section.node.content.content}
         />
+      ))}
+
+      {Object.keys(groups).map(key => (
+        <ul key={key}>
+          {groups[key].map(member => (
+            <Member
+              key={member.node.id}
+              name={member.node.name}
+              role={member.node.role}
+              bio={member.node.bio}
+              pictureSrc={member.node.picture.responsiveSizes.src}
+              pictureSrcSet={member.node.picture.responsiveSizes.srcSet}
+              pictureSizes={member.node.picture.responsiveSizes.sizes}
+            />
+          ))}
+        </ul>
       ))}
     </div>
   )
@@ -56,15 +75,19 @@ export const pageQuery = graphql`
     allContentfulTeamMember(sort: {fields: [group, order]}) {
       edges {
         node {
+          id
           name
           role
           bio
           picture {
-            responsiveSizes {
+            responsiveSizes(maxWidth: 200, maxHeight: 300) {
               src
               srcSet
+              sizes
             }
           }
+          group
+          order
         }
       }
     }
