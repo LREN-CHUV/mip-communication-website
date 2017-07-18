@@ -1,3 +1,8 @@
 import React from 'react'
+import './Header.css'
 
-export default () => <h1>Medical informatics platform</h1>
+export default () => (
+  <div className="header">
+    <h1>Medical informatics platform</h1>
+  </div>
+)
