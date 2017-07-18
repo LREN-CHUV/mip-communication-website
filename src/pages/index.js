@@ -1,22 +1,21 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ReactMarkdown from 'react-markdown'
+import Section from '../components/Section'
 
-class IndexPage extends React.Component {
-  render() {
-    const overviewSections = this.props.data.allContentfulOverviewSection.edges
+const IndexPage = ({ data }) => {
+  const sections = data.allContentfulOverviewSection.edges
 
-    return (
-      <div>
-        {overviewSections.map(section => (
-          <div key={section.node.content.id}>
-            <h1>{section.node.title}</h1>
-            <ReactMarkdown source={section.node.content.content} />
-          </div>
-        ))}
-      </div>
-    )
-  }
+  return (
+    <div>
+      {sections.map(section => (
+        <Section
+          key={section.node.content.id}
+          title={section.node.title}
+          content={section.node.content.content}
+        />
+      ))}
+    </div>
+  )
 }
 
 IndexPage.propTypes = {
@@ -41,7 +40,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query PageQuery {
-    allContentfulOverviewSection {
+    allContentfulOverviewSection(sort: {fields: [order]}) {
       edges {
         node {
           title
