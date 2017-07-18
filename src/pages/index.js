@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import ReactMarkdown from 'react-markdown'
 
 class IndexPage extends React.Component {
   render() {
@@ -10,7 +11,7 @@ class IndexPage extends React.Component {
         {overviewSections.map(section => (
           <div key={section.node.content.id}>
             <h1>{section.node.title}</h1>
-            <p>{section.node.content.content}</p>
+            <ReactMarkdown source={section.node.content.content} />
           </div>
         ))}
       </div>
