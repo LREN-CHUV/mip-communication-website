@@ -4,6 +4,7 @@ import Section from '../components/Section'
 
 const IndexPage = ({ data }) => {
   const sections = data.allContentfulOverviewSection.edges
+  const members = data.allContentfulTeamMember.edges
 
   return (
     <div>
@@ -47,6 +48,22 @@ export const pageQuery = graphql`
           content {
             id
             content
+          }
+        }
+      }
+    }
+
+    allContentfulTeamMember(sort: {fields: [group, order]}) {
+      edges {
+        node {
+          name
+          role
+          bio
+          picture {
+            responsiveSizes {
+              src
+              srcSet
+            }
           }
         }
       }
