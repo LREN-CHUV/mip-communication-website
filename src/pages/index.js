@@ -1,53 +1,52 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class IndexPage extends React.Component {
   render() {
-    // const usProductEdges = this.props.data.us.edges
-    // const deProductEdges = this.props.data.german.edges
+    const overviewSections = this.props.data.allContentfulOverviewSection.edges
+
     return (
       <div>
-        Hello
+        {overviewSections.map(section => (
+          <div key={section.node.content.id}>
+            <h1>{section.node.title}</h1>
+            <p>{section.node.content.content}</p>
+          </div>
+        ))}
       </div>
     )
   }
+}
+
+IndexPage.propTypes = {
+  data: PropTypes.shape({
+    allContentfulOverviewSection: PropTypes.shape({
+      edges: PropTypes.arrayOf(
+        PropTypes.shape({
+          node: PropTypes.shape({
+            title: PropTypes.string.isRequired,
+            content: PropTypes.shape({
+              content: PropTypes.string.isRequired,
+              id: PropTypes.string.isRequired,
+            }).isRequired,
+          }).isRequired,
+        }).isRequired,
+      ).isRequired,
+    }).isRequired,
+  }).isRequired,
 }
 
 export default IndexPage
 
 export const pageQuery = graphql`
   query PageQuery {
-    us: allContentfulProduct(filter: { node_locale: { eq: "en-US" } }) {
+    allContentfulOverviewSection {
       edges {
         node {
-          id
-          productName {
-            productName
-          }
-          image {
-            responsiveResolution(width: 75) {
-              src
-              srcSet
-              height
-              width
-            }
-          }
-        }
-      }
-    }
-    german: allContentfulProduct(filter: { node_locale: { eq: "de" } }) {
-      edges {
-        node {
-          id
-          productName {
-            productName
-          }
-          image {
-            responsiveResolution(width: 75) {
-              src
-              srcSet
-              height
-              width
-            }
+          title
+          content {
+            id
+            content
           }
         }
       }
