@@ -12,6 +12,7 @@
   "dependencies": {
     "gatsby": "^1.2.0",
     "gatsby-link": "^1.0.9",
+    "gatsby-source-contentful": "^1.2.0",
     "react": "^15.6.1",
     "warning": "^3.0.0"
   },
