@@ -15,7 +15,7 @@ export default () => (
         BETWEEN BRAIN SCIENCE RESEARCH AND CLINICAL PRACTICE
       </div>
     </div>
-    <div className="hbp-rainbow-colors" role="presentation">
+    <div role="presentation">
       <div className="hbp-rainbow-color" style={{ backgroundColor: '#E29D9B' }} />
       <div className="hbp-rainbow-color" style={{ backgroundColor: '#F6A86A' }} />
       <div className="hbp-rainbow-color" style={{ backgroundColor: '#F5CE79' }} />
