@@ -1,3 +1,34 @@
 .header {
-  text-align: center;
+  background: url('../assets/bridge-blue.jpg') no-repeat center -300px fixed;
+  background-size: cover;
+  overflow: auto;
+  padding: 50px 150px;
+}
+
+.hbp-logo {
+  display: block;
+  margin-bottom: 45px;
+}
+
+.hbp-logo img {
+  width: 220px;
+}
+
+.website-name {
+  font-size: 3.1em;
+  margin-bottom: 45px;
+}
+
+.tag-line {
+  font-size:1.5em;
+  margin-bottom: 145px;
+}
+
+.hbp-rainbow-colors {
+
+}
+.hbp-rainbow-color {
+  width: 12.5%;
+  height: 3px;
+  float: left;
 }
