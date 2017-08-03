@@ -27,13 +27,27 @@ export default () => (
     </div>
     <div role="navigation">
       <ul className="navigation">
-        <li className="intro-navigation-item"><Link to="/home">Home</Link></li>
-        <li className="intro-navigation-item"><Link to="/overview">Overview</Link></li>
-        <li className="intro-navigation-item"><Link to="/how-it-works">How it works</Link></li>
-        <li className="intro-navigation-item"><Link to="/health-partners">Health partners</Link></li>
-        <li className="intro-navigation-item"><Link to="/documentation">Documentation</Link></li>
-        <li className="intro-navigation-item"><Link to="/news-and-events">News and events</Link></li>
-        <li className="intro-navigation-item"><Link to="/contact">Contact</Link></li>
+        <li className="intro-navigation-item">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="intro-navigation-item">
+          <Link to="/overview">Overview</Link>
+        </li>
+        <li className="intro-navigation-item">
+          <Link to="/how-it-works">How it works</Link>
+        </li>
+        <li className="intro-navigation-item">
+          <Link to="/health-partners">Health partners</Link>
+        </li>
+        <li className="intro-navigation-item">
+          <Link to="/documentation">Documentation</Link>
+        </li>
+        <li className="intro-navigation-item">
+          <Link to="/news-and-events">News and events</Link>
+        </li>
+        <li className="intro-navigation-item">
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
     </div>
   </div>
