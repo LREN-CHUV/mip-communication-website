@@ -1,0 +1,22 @@
+.breadcrumbs,
+.breadcrumbs-title {
+  float: left;
+}
+
+.breadcrumbs {
+  font-size: 2.5em;
+  color: #6099C0;
+}
+
+.paragraphs {
+  width: 50%;
+  float: left;
+}
+
+.picture {
+  width: 40%;
+  float: right;
+}
+.picture img {
+  width: 100%;
+}
