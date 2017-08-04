@@ -28,39 +28,6 @@
   letter-spacing: 0.1em;
 }
 
-.hbp-rainbow-color {
-  width: 12.5%;
-  height: 3px;
-  float: left;
-}
-
-.top-navigation {
-  padding: 25px 150px;
-  font-size: 0.9em;
-  line-height: 3em;
-}
-
-.top-navigation > li {
-  margin-right: 30px;
-  position: relative;
-}
-
-.top-navigation-submenu {
-  display: none;
-  position: absolute;
-}
-
-@keyframes toggleSubMenu {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-.top-navigation > li:hover .top-navigation-submenu {
-  display: block;
-  animation-name: toggleLevel2;
-  animation-duration: 0.2s;
-}
-
 .button {
   display: block;
   background-color: #6099C0;
