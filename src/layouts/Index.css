@@ -26,6 +26,16 @@ body {
   font-family: Roboto;
   font-weight: 100;
   color: #145C89;
-  word-spacing: 0.8em;
-  letter-spacing: 0.2em;
+}
+
+.content {
+  padding: 0 150px;
+}
+
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
 }

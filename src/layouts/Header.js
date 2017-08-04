@@ -26,27 +26,24 @@ export default () => (
       <div className="hbp-rainbow-color" style={{ backgroundColor: '#588EA2' }} />
     </div>
     <div role="navigation">
-      <ul className="navigation">
-        <li className="intro-navigation-item">
-          <Link to="/">Home</Link>
-        </li>
-        <li className="intro-navigation-item">
-          <Link to="/overview">Overview</Link>
-        </li>
-        <li className="intro-navigation-item">
-          <Link to="/how-it-works">How it works</Link>
-        </li>
-        <li className="intro-navigation-item">
-          <Link to="/health-partners">Health partners</Link>
-        </li>
-        <li className="intro-navigation-item">
-          <Link to="/documentation">Documentation</Link>
-        </li>
-        <li className="intro-navigation-item">
-          <Link to="/news-and-events">News and events</Link>
-        </li>
-        <li className="intro-navigation-item">
-          <Link to="/contact">Contact</Link>
+      <ul className="top-navigation">
+        <li className="align-left"><Link to="/">Home</Link></li>
+        <li className="align-left"><Link to="/overview">Overview</Link></li>
+        <li className="align-left"><Link to="/how-it-works">How it works</Link></li>
+        <li className="align-left"><Link to="/health-partners">Health partners</Link></li>
+        <li className="align-left"><Link to="/documentation">Documentation</Link></li>
+        <li className="align-left"><Link to="/news-and-events">News and events</Link></li>
+        <li className="align-left"><Link to="/contact">Contact</Link></li>
+        <li className="no-bullet align-right">
+          <a
+            href="https://mip.humanbrainproject.eu"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button"
+          >
+            <div className="main-text">Login</div>
+            <div className="secondary-text">to platform</div>
+          </a>
         </li>
       </ul>
     </div>

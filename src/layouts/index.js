@@ -7,7 +7,9 @@ import './Index.css'
 const Template = ({ children }) => (
   <div>
     <Header />
-    {children()}
+    <div className="content">
+      {children()}
+    </div>
     <Footer />
   </div>
 )
