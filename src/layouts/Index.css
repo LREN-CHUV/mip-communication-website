@@ -32,7 +32,7 @@
        url('../fonts/roboto-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-html, body, ul, li, h1, h2, h3, h4 {
+html, body, ul, li, h1, h2, h3, h4, p {
   margin: 0;
   padding: 0;
 }
@@ -51,10 +51,21 @@ h1, h2, h3, h4, strong {
 h1 {
   font-weight: 300;
   font-size: 2.5em;
+  margin-bottom: 2em;
 }
 
 h2 {
-  font-size: 2em;
+  font-weight: 400;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+p {
+  margin-bottom: 1.6em;
 }
 
 li {
@@ -89,6 +100,21 @@ a:focus {
   display: none;
 }
 
+.large {
+  font-size: 2em;
+}
+
+.medium {
+  font-size: 1.5em;
+}
+
+.centered {
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .clear::after {
   content: '';
   display: table;
@@ -119,55 +145,79 @@ a:focus {
 }
 
 /* Colors (borders) */
-.border-red, .bullet-border-red::before {
-  border-color: #E29D9B;
+.border-red,
+.bullet-border-red::before {
+  border-color: #EF5450;
 }
-.border-orange, .bullet-border-orange::before {
-  border-color: #F6A86A;
+.border-orange,
+.bullet-border-orange::before {
+  border-color: #F47716;
 }
-.border-yellow, .bullet-border-yellow::before {
-  border-color: #F5CE79;
+.border-yellow,
+.bullet-border-yellow::before {
+  border-color: #FBB535;
 }
-.border-blue, .bullet-border-blue::before {
+.border-light-yellow,
+.bullet-bg-light-yellow::before {
+  border-color: #FBCB3F;
+}
+.border-blue,
+.bullet-border-blue::before {
   border-color: #74C9D3;
 }
-.border-half-baked, .bullet-border-half-baked::before {
+.border-half-baked,
+.bullet-border-half-baked::before {
   border-color: #8FCAD2;
 }
-.border-blue-dark, .bullet-border-blue-dark::before {
+.border-blue-dark,
+.bullet-border-blue-dark::before {
   border-color: #6EB5CC;
 }
-.border-darker, .bullet-border-darker::before {
+.border-darker,
+.bullet-border-darker::before {
   border-color: #68A6CF;
 }
-.border-horizon, .bullet-border-horizon::before {
+.border-horizon,
+.bullet-border-horizon::before {
   border-color: #588EA2;
 }
 
 
 /* Bullet colors (backgrounds) */
-.bg-red, .bullet-bg-red::before {
-  background-color: #E29D9B;
+.bg-red,
+.bullet-bg-red::before {
+  background-color: #EF5450;
 }
-.bg-orange, .bullet-bg-orange::before {
-  background-color: #F6A86A;
+.bg-orange,
+.bullet-bg-orange::before {
+  background-color: #F47716;
 }
-.bg-yellow, .bullet-bg-yellow::before {
-  background-color: #F5CE79;
+.bg-yellow,
+.bullet-bg-yellow::before {
+  background-color: #FBB535;
 }
-.bg-blue, .bullet-bg-blue::before {
-  background-color: #74C9D3;
+.bg-yellow,
+.bullet-bg-light-yellow::before {
+  background-color: #FBCB3F;
 }
-.bg-half-baked, .bullet-bg-half-baked::before {
-  background-color: #8FCAD2;
+.bg-blue,
+.bullet-bg-blue::before {
+  background-color: #33AABB;
 }
-.bg-blue-dark, .bullet-bg-blue-dark::before {
-  background-color: #6EB5CC;
+.bg-half-baked,
+.bullet-bg-half-baked::before {
+  background-color: #2D8EB3;
 }
-.bg-blue-darker, .bullet-bg-blue-darker::before {
-  background-color: #68A6CF;
+.bg-blue-dark,
+.bullet-bg-blue-dark::before {
+  background-color: #2070A8;
 }
-.bg-horizon, .bullet-bg-horizon::before {
+.bg-blue-darker,
+.bullet-bg-blue-darker::before {
+  background-color: #164E75;
+}
+.bg-horizon,
+.bullet-bg-horizon::before {
   background-color: #588EA2;
 }
 

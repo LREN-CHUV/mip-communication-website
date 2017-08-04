@@ -40,18 +40,18 @@ const mockNews = [
 export default () => (
   <div>
     <h1 className="hidden">Home</h1>
-    <section className="intro">
-      <h2>Our mission</h2>
-      <p>
+    <section className="centered">
+      <h2 className="large">Our mission</h2>
+      <p className="medium">
         The <strong>Medical Informatics Platform</strong> is a Global Open-Source Platform allowing
         hospitals and research centers worldwide to share medical data. It enableds online users to
         access efficiently, accurate and relevant information on brain related diseases, strictly
         preserving patients&#39; confidentiality
       </p>
     </section>
-    <section className="intro">
-      <h2>Our vision</h2>
-      <p>
+    <section className="centered">
+      <h2 className="large">Our vision</h2>
+      <p className="medium">
         The Medical Informatics Platform breaks down the traditional barriers between patient&#39;s
         care, brain science research and clinical research to accelerate the identification of brain
         diseases and the most effective treatments
