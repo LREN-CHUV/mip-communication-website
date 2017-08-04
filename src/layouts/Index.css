@@ -32,19 +32,28 @@
        url('../fonts/roboto-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-html, body {
+html, body, ul, li {
   margin: 0;
   padding: 0;
 }
 
 body {
   font-family: Roboto;
-  font-weight: 100;
+  font-weight: 300;
+  line-height: 2.2em;
   color: #145C89;
 }
 
+h1, h2, h3, h4, strong {
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2em;
+}
+
 .content {
-  padding: 0 150px;
+  padding: 150px;
 }
 
 .align-left {
@@ -53,4 +62,92 @@ body {
 
 .align-right {
   float: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.clear::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Custom bullets are a square with a small border-radius */
+.bullet::before {
+  content: '';
+  background-color: #6099C0;
+  display: inline-block;
+  vertical-align: middle;
+  height: 0.9em;
+  width: 0.9em;
+  margin-right: 1em;
+  border-radius: 0.2em;
+}
+
+.bullet-outline::before {
+  background-color: transparent;
+  border: 2px solid;
+}
+
+/* Colors (borders) */
+.border-red, .bullet-border-red::before {
+  border-color: #E29D9B;
+}
+.border-orange, .bullet-border-orange::before {
+  border-color: #F6A86A;
+}
+.border-yellow, .bullet-border-yellow::before {
+  border-color: #F5CE79;
+}
+.border-blue, .bullet-border-blue::before {
+  border-color: #74C9D3;
+}
+.border-half-baked, .bullet-border-half-baked::before {
+  border-color: #8FCAD2;
+}
+.border-blue-dark, .bullet-border-blue-dark::before {
+  border-color: #6EB5CC;
+}
+.border-darker, .bullet-border-darker::before {
+  border-color: #68A6CF;
+}
+.border-horizon, .bullet-border-horizon::before {
+  border-color: #588EA2;
+}
+
+
+/* Bullet colors (backgrounds) */
+.bg-red, .bullet-bg-red::before {
+  background-color: #E29D9B;
+}
+.bg-orange, .bullet-bg-orange::before {
+  background-color: #F6A86A;
+}
+.bg-yellow, .bullet-bg-yellow::before {
+  background-color: #F5CE79;
+}
+.bg-blue, .bullet-bg-blue::before {
+  background-color: #74C9D3;
+}
+.bg-half-baked, .bullet-bg-half-baked::before {
+  background-color: #8FCAD2;
+}
+.bg-blue-dark, .bullet-bg-blue-dark::before {
+  background-color: #6EB5CC;
+}
+.bg-blue-darker, .bullet-bg-blue-darker::before {
+  background-color: #68A6CF;
+}
+.bg-horizon, .bullet-bg-horizon::before {
+  background-color: #588EA2;
+}
+
+/* Columns */
+.three-columns .item {
+  display: block;
+  width: 30%;
+  float: left;
+  margin-right: 3%;
 }

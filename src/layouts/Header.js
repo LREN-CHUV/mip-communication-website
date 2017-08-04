@@ -16,25 +16,25 @@ export default () => (
       </div>
     </div>
     <div role="presentation">
-      <div className="hbp-rainbow-color" style={{ backgroundColor: '#E29D9B' }} />
-      <div className="hbp-rainbow-color" style={{ backgroundColor: '#F6A86A' }} />
-      <div className="hbp-rainbow-color" style={{ backgroundColor: '#F5CE79' }} />
-      <div className="hbp-rainbow-color" style={{ backgroundColor: '#74C9D3' }} />
-      <div className="hbp-rainbow-color" style={{ backgroundColor: '#8FCAD2' }} />
-      <div className="hbp-rainbow-color" style={{ backgroundColor: '#6EB5CC' }} />
-      <div className="hbp-rainbow-color" style={{ backgroundColor: '#68A6CF' }} />
-      <div className="hbp-rainbow-color" style={{ backgroundColor: '#588EA2' }} />
+      <div className="hbp-rainbow-color bg-red" />
+      <div className="hbp-rainbow-color bg-orange" />
+      <div className="hbp-rainbow-color bg-yellow" />
+      <div className="hbp-rainbow-color bg-blue" />
+      <div className="hbp-rainbow-color bg-half-baked" />
+      <div className="hbp-rainbow-color bg-blue-dark" />
+      <div className="hbp-rainbow-color bg-blue-darker" />
+      <div className="hbp-rainbow-color bg-horizon" />
     </div>
     <div role="navigation">
       <ul className="top-navigation">
-        <li className="align-left"><Link to="/">Home</Link></li>
-        <li className="align-left"><Link to="/overview">Overview</Link></li>
-        <li className="align-left"><Link to="/how-it-works">How it works</Link></li>
-        <li className="align-left"><Link to="/health-partners">Health partners</Link></li>
-        <li className="align-left"><Link to="/documentation">Documentation</Link></li>
-        <li className="align-left"><Link to="/news-and-events">News and events</Link></li>
-        <li className="align-left"><Link to="/contact">Contact</Link></li>
-        <li className="no-bullet align-right">
+        <li className="bullet align-left"><Link to="/">Home</Link></li>
+        <li className="bullet align-left"><Link to="/overview">Overview</Link></li>
+        <li className="bullet align-left"><Link to="/how-it-works">How it works</Link></li>
+        <li className="bullet align-left"><Link to="/health-partners">Health partners</Link></li>
+        <li className="bullet align-left"><Link to="/documentation">Documentation</Link></li>
+        <li className="bullet align-left"><Link to="/news-and-events">News and events</Link></li>
+        <li className="bullet align-left"><Link to="/contact">Contact</Link></li>
+        <li className="align-right">
           <a
             href="https://mip.humanbrainproject.eu"
             target="_blank"
