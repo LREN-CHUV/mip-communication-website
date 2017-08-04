@@ -9,30 +9,30 @@ export default () => (
   <div role="navigation">
     <ul className="top-navigation clear">
       <li className="align-left">
-        <Link to="/" className="bullet">Home</Link>
+        <Link to="/" className="hoverable bullet">Home</Link>
       </li>
       <li className="align-left">
-        <a href="#" className="bullet">Overview</a>
+        <a href="#" className="hoverable bullet">Overview</a>
         <ul className="top-navigation-submenu">
-          <li><Link to="/about-us">About us</Link></li>
-          <li><Link to="/how-it-works">How it works</Link></li>
+          <li className="hoverable bullet"><Link to="/about-us">About us</Link></li>
+          <li className="hoverable bullet"><Link to="/how-it-works">How it works</Link></li>
         </ul>
       </li>
       <li className="align-left">
-        <a href="#" className="bullet">Health partners</a>
+        <a href="#" className="hoverable bullet">Health partners</a>
         <ul className="top-navigation-submenu">
-          <li className="bullet"><Link to="/hospitals">Hospitals</Link></li>
-          <li className="bullet"><Link to="/cohorts">Cohorts</Link></li>
+          <li className="hoverable bullet"><Link to="/hospitals">Hospitals</Link></li>
+          <li className="hoverable bullet"><Link to="/cohorts">Cohorts</Link></li>
         </ul>
       </li>
       <li className="align-left">
-        <Link to="/documentation" className="bullet">Documentation</Link>
+        <Link to="/documentation" className="hoverable bullet">Documentation</Link>
       </li>
       <li className="align-left">
-        <Link to="/news-and-events" className="bullet">News and events</Link>
+        <Link to="/news-and-events" className="hoverable bullet">News and events</Link>
       </li>
       <li className="align-left">
-        <Link to="/contact" className="bullet">Contact</Link>
+        <Link to="/contact" className="hoverable bullet">Contact</Link>
       </li>
       <li className="align-right">
         <a

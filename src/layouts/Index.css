@@ -32,7 +32,7 @@
        url('../fonts/roboto-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-html, body, ul, li {
+html, body, ul, li, h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
 }
@@ -46,6 +46,11 @@ body {
 
 h1, h2, h3, h4, strong {
   font-weight: 500;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.5em;
 }
 
 h2 {
@@ -102,9 +107,9 @@ a:focus {
   border-radius: 0.2em;
 }
 
-.bullet:hover::before,
-.bullet:active::before,
-.bullet:focus::before {
+.bullet.hoverable:hover::before,
+.bullet.hoverable:active::before,
+.bullet.hoverable:focus::before {
   background-color: #145C89;
 }
 
