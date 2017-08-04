@@ -37,39 +37,28 @@
 .top-navigation {
   padding: 25px 150px;
   font-size: 0.9em;
-}
-
-.top-navigation:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-li a {
-  color: #6099C0;
-  text-decoration: none;
   line-height: 3em;
-  font-weight: 300;
+}
+
+.top-navigation > li {
   margin-right: 30px;
+  position: relative;
 }
 
-li a:hover,
-li a:active,
-li a:focus {
-  color: #145C89;
-  text-shadow:0px 0px 1px #145C89;
+.top-navigation-submenu {
+  display: none;
+  position: absolute;
 }
 
-li a:hover::before,
-li a:active::before,
-li a:focus::before {
-  background-color: #145C89;
+@keyframes toggleSubMenu {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.top-navigation > li:hover .top-navigation-submenu {
+  display: block;
+  animation-name: toggleLevel2;
+  animation-duration: 0.2s;
 }
 
 .button {
