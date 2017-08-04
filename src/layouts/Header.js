@@ -36,13 +36,27 @@ export default () => (
 
     <div role="navigation">
       <ul className="top-navigation">
-        <li className="bullet align-left"><Link to="/">Home</Link></li>
-        <li className="bullet align-left"><Link to="/overview">Overview</Link></li>
-        <li className="bullet align-left"><Link to="/how-it-works">How it works</Link></li>
-        <li className="bullet align-left"><Link to="/health-partners">Health partners</Link></li>
-        <li className="bullet align-left"><Link to="/documentation">Documentation</Link></li>
-        <li className="bullet align-left"><Link to="/news-and-events">News and events</Link></li>
-        <li className="bullet align-left"><Link to="/contact">Contact</Link></li>
+        <li className="bullet align-left">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="bullet align-left">
+          <Link to="/overview">Overview</Link>
+        </li>
+        <li className="bullet align-left">
+          <Link to="/how-it-works">How it works</Link>
+        </li>
+        <li className="bullet align-left">
+          <Link to="/health-partners">Health partners</Link>
+        </li>
+        <li className="bullet align-left">
+          <Link to="/documentation">Documentation</Link>
+        </li>
+        <li className="bullet align-left">
+          <Link to="/news-and-events">News and events</Link>
+        </li>
+        <li className="bullet align-left">
+          <Link to="/contact">Contact</Link>
+        </li>
         <li className="align-right">
           <a
             href="https://mip.humanbrainproject.eu"
