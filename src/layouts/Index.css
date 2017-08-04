@@ -222,9 +222,17 @@ a:focus {
 }
 
 /* Columns */
-.three-columns .item {
+.columns .item {
   display: block;
-  width: 30%;
   float: left;
+}
+
+.three.columns .item {
+  width: 30%;
+  margin-right: 3%;
+}
+
+.four.columns .item {
+  width: 20%;
   margin-right: 3%;
 }

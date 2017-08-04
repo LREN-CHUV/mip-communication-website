@@ -59,11 +59,11 @@ export default () => (
     </section>
     <section>
       <h2 className="bullet bullet-outline bullet-border-red">Latest news</h2>
-      <ul className="three-columns clear">
+      <ul className="three columns clear">
         {[
           mockNews.map(news => (
             <li className="item">
-              <article className="column-item">
+              <article>
                 <h3 className="bullet bullet-bg-orange">
                   {news.title}
                 </h3>
