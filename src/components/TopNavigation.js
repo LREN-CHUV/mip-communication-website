@@ -36,7 +36,7 @@ export default () => (
       </li>
       <li className="align-right">
         <a
-          href="https://mip.humanbrainproject.eu"
+          href="https://services.humanbrainproject.eu/oidc/login"
           target="_blank"
           rel="noopener noreferrer"
           className="button"
