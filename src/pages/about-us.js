@@ -1,6 +1,39 @@
 import React from 'react'
 import './about-us.css'
 
+const mockTeam = [
+  {
+    name: 'Ferath Kherif, Ph.D.',
+    role: 'SubProject Leader',
+    picture: 'http://lorempixel.com/300/350/business/',
+    bio: 'Text text text, text text. Text text text text. Text text.',
+  },
+  {
+    name: 'Ferath Kherif, Ph.D.',
+    role: 'SubProject Leader',
+    picture: 'http://lorempixel.com/300/350/business/',
+    bio: 'Text text text, text text. Text text text text. Text text.',
+  },
+  {
+    name: 'Ferath Kherif, Ph.D.',
+    role: 'SubProject Leader',
+    picture: 'http://lorempixel.com/300/350/business/',
+    bio: 'Text text text, text text. Text text text text. Text text.',
+  },
+  {
+    name: 'Ferath Kherif, Ph.D.',
+    role: 'SubProject Leader',
+    picture: 'http://lorempixel.com/300/350/business/',
+    bio: 'Text text text, text text. Text text text text. Text text.',
+  },
+  {
+    name: 'Ferath Kherif, Ph.D.',
+    role: 'SubProject Leader',
+    picture: 'http://lorempixel.com/300/350/business/',
+    bio: 'Text text text, text text. Text text text text. Text text.',
+  },
+]
+
 export default () => (
   <div>
     <div className="breadcrumbs-title-container clear">
@@ -10,7 +43,7 @@ export default () => (
       <h1 className="breadcrumbs-title">About us</h1>
     </div>
     <div className="clear">
-      <div className="paragraphs">
+      <div className="content-paragraphs">
         <section>
           <p>
             Thounsands of brain images and terabytes of invaluable associated medical data are
@@ -52,9 +85,21 @@ export default () => (
           </p>
         </section>
       </div>
-      <div className="picture">
+      <div className="content-picture">
         <img src="http://lorempixel.com/600/450/business/" alt="Placeholder" />
       </div>
     </div>
+    <section>
+      <h2 className="bullet bullet-bg-red">Team</h2>
+      <ul className="four columns clear">
+        {mockTeam.map(member => (
+          <li className="item member">
+            <img className="member-picture" src={member.picture} alt="Placeholder" />
+            <h3>{member.name}</h3>
+            <div>{member.role}</div>
+          </li>
+        ))}
+      </ul>
+    </section>
   </div>
 )

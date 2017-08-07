@@ -8,15 +8,25 @@
   color: #6099C0;
 }
 
-.paragraphs {
+.content-paragraphs {
   width: 50%;
   float: left;
 }
 
-.picture {
+.content-picture {
   width: 40%;
   float: right;
 }
-.picture img {
+
+.content-picture img {
+  width: 100%;
+}
+
+.member {
+  margin-bottom: 100px;
+}
+
+.member-picture {
+  display: block;
   width: 100%;
 }
