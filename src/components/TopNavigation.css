@@ -36,6 +36,6 @@
 .top-navigation > li:active .top-navigation-submenu,
 .top-navigation > li:focus .top-navigation-submenu {
   display: block;
-  animation-name: toggleLevel2;
+  animation-name: toggleSubMenu;
   animation-duration: 0.2s;
 }
