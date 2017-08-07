@@ -14,8 +14,8 @@ export default () => (
       <li className="align-left">
         <a href="#" className="hoverable bullet">Overview</a>
         <ul className="top-navigation-submenu">
-          <li className="hoverable bullet"><Link to="/about-us">About us</Link></li>
-          <li className="hoverable bullet"><Link to="/how-it-works">How it works</Link></li>
+          <li className="hoverable bullet"><Link to="/overview/about-us">About us</Link></li>
+          <li className="hoverable bullet"><Link to="/overview/how-it-works">How it works</Link></li>
         </ul>
       </li>
       <li className="align-left">
