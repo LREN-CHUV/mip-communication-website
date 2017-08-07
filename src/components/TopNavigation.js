@@ -19,7 +19,7 @@ export default () => (
         </ul>
       </li>
       <li className="align-left">
-        <a href="#" className="hoverable bullet">Health partners</a>
+        <Link to="/health-partners" className="hoverable bullet">Health partners</Link>
         <ul className="top-navigation-submenu">
           <li className="hoverable bullet"><Link to="/hospitals">Hospitals</Link></li>
           <li className="hoverable bullet"><Link to="/cohorts">Cohorts</Link></li>
