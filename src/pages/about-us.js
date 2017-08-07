@@ -94,7 +94,12 @@ export default () => (
       <ul className="four columns clear">
         {mockTeam.map(member => (
           <li className="item member">
-            <img className="member-picture" src={member.picture} alt="Placeholder" />
+            <div className="member-picture" tabIndex="0">
+              <img src={member.picture} alt="Placeholder" />
+              <div className="member-bio">
+                <div className="member-bio-text">{member.bio}</div>
+              </div>
+            </div>
             <h3>{member.name}</h3>
             <div>{member.role}</div>
           </li>

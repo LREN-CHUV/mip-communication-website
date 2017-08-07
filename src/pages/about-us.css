@@ -27,6 +27,45 @@
 }
 
 .member-picture {
-  display: block;
+  position: relative;
+}
+
+.member-picture img {
   width: 100%;
+  display: block;
+}
+.member-bio {
+  /* Fills .member-picture container */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #6099C0;
+  display: none; /* Hidden until hoverred */
+}
+
+.member-bio-text {
+  color: white;
+  padding: 2em;
+}
+
+
+@keyframes fadeBio {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.member-picture:hover .member-bio,
+.member-picture:active .member-bio,
+.member-picture:focus .member-bio {
+  display: block;
+  animation-name: fadeBio;
+  animation-duration: 0.2s;
 }
