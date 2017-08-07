@@ -38,7 +38,7 @@ export default () => (
           understanding of brain diseases and neurological disorders.
         </p>
         <p>Five European hospitals and research cohorts have already been recruited.</p>
-        <Link to="/health-partners/hospitals" className="button">
+        <Link to="/health-partners/cohorts" className="button">
           View partner cohorts
         </Link>
       </div>
