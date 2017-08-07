@@ -227,6 +227,11 @@ a:focus {
   float: left;
 }
 
+.two.columns .item {
+  width: 47%;
+  margin-right: 3%;
+}
+
 .three.columns .item {
   width: 30%;
   margin-right: 3%;
@@ -235,4 +240,25 @@ a:focus {
 .four.columns .item {
   width: 22%;
   margin-right: 3%;
+}
+
+/* Button */
+.button {
+  display: inline-block;
+  background-color: #6099C0;
+  color: white;
+  border-radius: 0.2em;
+  line-height: 1em;
+  padding: 0.8em 1.4em;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  color: white;
+  background-color: #145C89;
+}
+
+.button .secondary-text {
+  font-size: 0.7em;
 }

@@ -27,23 +27,3 @@
   word-spacing: 0.2em;
   letter-spacing: 0.1em;
 }
-
-.button {
-  display: block;
-  background-color: #6099C0;
-  color: white;
-  border-radius: 0.2em;
-  line-height: 1em;
-  padding: 0.8em 1.4em;
-}
-
-.button:hover,
-.button:active,
-.button:focus {
-  color: white;
-  background-color: #145C89;
-}
-
-.button .secondary-text {
-  font-size: 0.7em;
-}
