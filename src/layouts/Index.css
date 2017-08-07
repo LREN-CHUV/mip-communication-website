@@ -60,6 +60,20 @@ h2 {
   margin-bottom: 1em;
 }
 
+h3 {
+  font-weight: 400;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+.subtitle {
+  margin-bottom: 1em;
+}
+
+article {
+  margin-bottom: 4em;
+}
+
 section {
   margin-bottom: 3em;
 }
@@ -108,6 +122,10 @@ a:focus {
   font-size: 1.5em;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .centered {
   text-align: center;
   width: 50%;
@@ -119,6 +137,11 @@ a:focus {
   content: '';
   display: table;
   clear: both;
+}
+
+.full-width {
+  display: block;
+  width: 100%;
 }
 
 /* Custom bullets are a square with a small border-radius */
@@ -232,14 +255,38 @@ a:focus {
   margin-right: 3%;
 }
 
+.two.columns .item.wider {
+  width: 53%;
+}
+
+.two.columns .item.narrower {
+  width: 40%;
+}
+
 .three.columns .item {
   width: 30%;
   margin-right: 3%;
 }
 
+.three.columns .item.wider {
+  width: 34%;
+}
+
+.three.columns .item.narrower {
+  width: 28%;
+}
+
 .four.columns .item {
   width: 22%;
   margin-right: 3%;
+}
+
+.four.columns .item.wider {
+  width: 28%;
+}
+
+.four.columns .item.narrower {
+  width: 20%;
 }
 
 /* Button */

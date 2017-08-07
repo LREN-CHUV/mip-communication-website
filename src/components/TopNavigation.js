@@ -21,8 +21,8 @@ export default () => (
       <li className="align-left">
         <Link to="/health-partners" className="hoverable bullet">Health partners</Link>
         <ul className="top-navigation-submenu">
-          <li className="hoverable bullet"><Link to="/hospitals">Hospitals</Link></li>
-          <li className="hoverable bullet"><Link to="/cohorts">Cohorts</Link></li>
+          <li className="hoverable bullet"><Link to="/health-partners/hospitals">Hospitals</Link></li>
+          <li className="hoverable bullet"><Link to="/health-partners/cohorts">Cohorts</Link></li>
         </ul>
       </li>
       <li className="align-left">

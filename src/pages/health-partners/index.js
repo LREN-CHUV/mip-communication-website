@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import './health-partners.css'
-
+import './index.css'
 
 export default () => (
   <div>
