@@ -1,5 +1,4 @@
 import React from 'react'
-import './hospitals.css'
 
 export default () =>
   <div>

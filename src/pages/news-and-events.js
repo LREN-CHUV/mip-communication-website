@@ -2,7 +2,6 @@ import React from 'react'
 import Slider from '../components/Slider'
 import TwitterTimeline from '../components/TwitterTimeline'
 import NewsList from '../components/NewsList'
-import './news-and-events.css'
 
 const fakeNews = [
   {

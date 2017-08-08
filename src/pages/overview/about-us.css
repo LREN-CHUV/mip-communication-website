@@ -8,20 +8,6 @@
   color: #6099C0;
 }
 
-.content-paragraphs {
-  width: 50%;
-  float: left;
-}
-
-.content-picture {
-  width: 40%;
-  float: right;
-}
-
-.content-picture img {
-  width: 100%;
-}
-
 .member {
   margin-bottom: 100px;
 }

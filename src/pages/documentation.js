@@ -1,5 +1,4 @@
 import React from 'react'
-import './documentation.css'
 
 export default () =>
   <div>
