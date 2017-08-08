@@ -75,7 +75,7 @@ article {
 }
 
 section {
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 
 p {
@@ -248,6 +248,7 @@ a:focus {
 .columns .item {
   display: block;
   float: left;
+  margin-bottom: 4em;
 }
 
 .two.columns .item {
