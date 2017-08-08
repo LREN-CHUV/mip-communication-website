@@ -263,6 +263,14 @@ a:focus {
   width: 40%;
 }
 
+.two.columns .item.much-wider {
+  width: 67%;
+}
+
+.two.columns .item.much-narrower {
+  width: 27%;
+}
+
 .three.columns .item {
   width: 30%;
   margin-right: 3%;
