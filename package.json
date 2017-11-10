@@ -12,7 +12,6 @@
   "dependencies": {
     "gatsby": "^1.2.0",
     "gatsby-link": "^1.0.9",
-    "gatsby-source-contentful": "^1.2.0",
     "lodash.groupby": "^4.6.0",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
