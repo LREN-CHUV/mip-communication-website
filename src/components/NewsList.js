@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const NewsList = ({ news }) =>
   <ul className="three columns clear">
     {news.map(n =>
-      <li className="item" key={n.key}>
+      <li className="item" key={n.id}>
         <article>
           <h3 className="bullet bullet-bg-orange no-margin">
             {n.title}

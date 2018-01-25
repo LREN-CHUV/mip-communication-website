@@ -1,20 +1,88 @@
 {
   "assetsByChunkName": {
-    "commons": [
-      "commons-6a434c58e68be228d2c1.js",
-      "commons-6a434c58e68be228d2c1.js.map"
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-54a2fe5a8fbb0aac840b.js",
+      "component---src-pages-index-js-54a2fe5a8fbb0aac840b.js.map"
     ],
-    "page-component---src-pages-index-js": [
-      "page-component---src-pages-index-js-8a0014a38445755f2341.js",
-      "page-component---src-pages-index-js-8a0014a38445755f2341.js.map"
+    "path---overview-about-us": [
+      "path---overview-about-us-a0e39f21c11f6a62c5ab.js",
+      "path---overview-about-us-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---health-partners": [
+      "path---health-partners-a0e39f21c11f6a62c5ab.js",
+      "path---health-partners-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-health-partners-hospitals-js": [
+      "component---src-pages-health-partners-hospitals-js-26ba2f9686f165655b67.js",
+      "component---src-pages-health-partners-hospitals-js-26ba2f9686f165655b67.js.map"
+    ],
+    "component---src-pages-overview-about-us-js": [
+      "component---src-pages-overview-about-us-js-ccd2714955745e67bdaf.js",
+      "component---src-pages-overview-about-us-js-ccd2714955745e67bdaf.js.map"
+    ],
+    "path---health-partners-cohorts": [
+      "path---health-partners-cohorts-a0e39f21c11f6a62c5ab.js",
+      "path---health-partners-cohorts-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-news-and-events-js": [
+      "component---src-pages-news-and-events-js-575704d62b7dc35b579f.js",
+      "component---src-pages-news-and-events-js-575704d62b7dc35b579f.js.map"
+    ],
+    "path---documentation": [
+      "path---documentation-a0e39f21c11f6a62c5ab.js",
+      "path---documentation-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-7228205edf9d07f3deb3.js",
+      "component---src-layouts-index-js-7228205edf9d07f3deb3.js.map"
     ],
     "path---index": [
-      "path---index-586c7e095e534a3909ec.js",
-      "path---index-586c7e095e534a3909ec.js.map"
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---overview-how-it-works": [
+      "path---overview-how-it-works-a0e39f21c11f6a62c5ab.js",
+      "path---overview-how-it-works-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-health-partners-index-js": [
+      "component---src-pages-health-partners-index-js-2ac8c0902f69b905a437.js",
+      "component---src-pages-health-partners-index-js-2ac8c0902f69b905a437.js.map"
+    ],
+    "commons": [
+      "commons-7c33a496a0e77ffbe267.js",
+      "build-js-styles.css",
+      "commons-7c33a496a0e77ffbe267.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-documentation-js": [
+      "component---src-pages-documentation-js-9a02ac29a54ae2ee516b.js",
+      "component---src-pages-documentation-js-9a02ac29a54ae2ee516b.js.map"
+    ],
+    "component---src-pages-overview-how-it-works-js": [
+      "component---src-pages-overview-how-it-works-js-e138dfaa660adc8a4071.js",
+      "component---src-pages-overview-how-it-works-js-e138dfaa660adc8a4071.js.map"
+    ],
+    "component---src-pages-health-partners-cohorts-js": [
+      "component---src-pages-health-partners-cohorts-js-f525af0828405fd020ca.js",
+      "component---src-pages-health-partners-cohorts-js-f525af0828405fd020ca.js.map"
     ],
     "app": [
-      "app-82be750e2e9cb72f0fe7.js",
-      "app-82be750e2e9cb72f0fe7.js.map"
+      "app-e8c28135e5cd2358dd3d.js",
+      "build-js-styles.css",
+      "app-e8c28135e5cd2358dd3d.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---news-and-events": [
+      "path---news-and-events-a0e39f21c11f6a62c5ab.js",
+      "path---news-and-events-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---health-partners-hospitals": [
+      "path---health-partners-hospitals-a0e39f21c11f6a62c5ab.js",
+      "path---health-partners-hospitals-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }

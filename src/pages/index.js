@@ -8,7 +8,7 @@ const mockNews = [
     id: 1,
     title: 'Announcing SP8 Workshop SGA2 "Diseases cluster HBP Platform Development"',
     subtitle: 'Jul. 2, 2017',
-    image: 'http://lorempixel.com/400/200/business/',
+    image: 'https://static.pexels.com/photos/567633/pexels-photo-567633.jpeg',
     content:
       "the MIP is excited to announce the subproject's upcoming Workshop that will take" +
       'place in Málaga, Spain on February 20th, 2017. The event will focus on sharing' +
@@ -18,7 +18,7 @@ const mockNews = [
     id: 2,
     title: 'Announcing SP8 Workshop SGA2 "Diseases cluster HBP Platform Development"',
     subtitle: 'Jul. 2, 2017',
-    image: 'http://lorempixel.com/400/200/business/',
+    image: 'https://static.pexels.com/photos/567633/pexels-photo-567633.jpeg',
     content:
       "the MIP is excited to announce the subproject's upcoming Workshop that will take" +
       'place in Málaga, Spain on February 20th, 2017. The event will focus on sharing' +
@@ -28,7 +28,7 @@ const mockNews = [
     id: 3,
     title: 'Announcing SP8 Workshop SGA2 "Diseases cluster HBP Platform Development"',
     subtitle: 'Jul. 2, 2017',
-    image: 'http://lorempixel.com/400/200/business/',
+    image: 'https://static.pexels.com/photos/567633/pexels-photo-567633.jpeg',
     content:
       "the MIP is excited to announce the subproject's upcoming Workshop that will take" +
       'place in Málaga, Spain on February 20th, 2017. The event will focus on sharing' +
