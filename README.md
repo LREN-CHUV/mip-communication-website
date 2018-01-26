@@ -16,3 +16,9 @@ and see the live site on your computer using
 ```sh
   gatsby serve
 ```
+
+Gatsby will start a hot-reloading development environment accessible at localhost:8000
+
+```sh
+  gatsby develop
+```

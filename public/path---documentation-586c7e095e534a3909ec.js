@@ -1,2 +1,0 @@
-webpackJsonp([12],{"./node_modules/json-loader/index.js!./.cache/json/documentation.json":function(o,n){o.exports={pathContext:{}}}});
-//# sourceMappingURL=path---documentation-586c7e095e534a3909ec.js.map
