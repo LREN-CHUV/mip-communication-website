@@ -101,6 +101,11 @@ a:focus {
 .content {
   padding: 150px;
 }
+@media(max-width: 768px) {
+  .content {
+    padding: 1em;
+  }
+}
 
 .align-left {
   float: left;

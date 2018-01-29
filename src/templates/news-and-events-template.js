@@ -2,9 +2,9 @@ import React, { Component } from "react"
 import PropTypes from "prop-types"
 import Img from "gatsby-image"
 
-class NewsOnMain extends Component {
+class NewsAndEvents extends Component {
   render() {
-    const news = this.props.data.contentfulNewsOnMain
+    const news = this.props.data.contentfulNewsAndEvents
     const {
       titile,
       subtitle,
@@ -26,15 +26,15 @@ class NewsOnMain extends Component {
   }
 }
 
-NewsOnMain.PropTypes = {
+NewsAndEvents.PropTypes = {
   data: PropTypes.object.isRequired
 }
 
-export default NewsOnMain
+export default NewsAndEvents
 
 export const pageQuery = graphql`
-  query newsOnMainQuery($id: String!) {
-    contentfulNewsOnMain(id : { eq: $id }) {
+  query NewsAndEventsQuery($id: String!) {
+    contentfulNewsAndEvents(id : { eq: $id }) {
       id
       titile
       subtitle

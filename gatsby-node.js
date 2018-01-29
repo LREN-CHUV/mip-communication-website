@@ -19,27 +19,61 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
       `
     )
-      .then(result => {
+    .then(result => {
+      if (result.errors) {
+        reject(result.errors)
+      }
+
+      const newsOnMainTemplate = path.resolve(`./src/templates/news-on-main.js`)
+
+      _.each(result.data.allContentfulNewsOnMain.edges, edge => {
+
+        createPage({
+          path: `/article/${edge.node.id}/`,
+          component: slash(newsOnMainTemplate),
+          context: {
+            id: edge.node.id,
+          },
+        })
+
+      })
+
+      // resolve()
+    })
+
+    .then(() => {
+      graphql(
+        `
+          {
+            allContentfulNewsAndEvents(limit: 1000) {
+              edges {
+                node {
+                  id
+                }
+              }
+            }
+          }
+        `
+      ).then(result => {
         if (result.errors) {
           reject(result.errors)
         }
 
-        const newsOnMainTemplate = path.resolve(`./src/templates/news-on-main.js`)
+        const newsAndEvents = path.resolve(`./src/templates/news-and-events-template.js`)
 
-        _.each(result.data.allContentfulNewsOnMain.edges, edge => {
-
+        _.each(result.data.allContentfulNewsAndEvents.edges, edge => {
           createPage({
             path: `/article/${edge.node.id}/`,
-            component: slash(newsOnMainTemplate),
+            component: slash(newsAndEvents),
             context: {
               id: edge.node.id,
             },
           })
-
         })
 
         resolve()
       })
+    })
 
   })
 }

@@ -37,7 +37,8 @@ const NewsList = ({ news }) =>
           <div className="subtitle">
             {node.subtitle}
           </div>
-          <img className="full-width" src={node.image.resolutions.src} alt={node.image.title} />
+          {/*<Img  sizes={node.image.sizes} />*/}
+          <img className="full-width" src={node.image.sizes.src} alt={node.image.title} />
           <p>
             {node.content}
           </p>

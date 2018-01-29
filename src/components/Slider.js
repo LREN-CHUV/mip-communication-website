@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { CSSTransitionGroup } from 'react-transition-group'
 import './Slider.css'
 
@@ -44,26 +43,16 @@ class Slider extends React.Component {
           transitionEnterTimeout={300}
           transitionLeaveTimeout={300}
         >
-          <article className="slide" key={currentSlide.title}>
-            <img className="slide-image" src={currentSlide.image} alt={currentSlide.title} />
-            <h2 className="slide-title bullet bullet-bg-orange no-margin">{currentSlide.title}</h2>
-            <div className="subtitle">{currentSlide.subtitle}</div>
-            <p>{currentSlide.content}</p>
+          <article className="slide" key={currentSlide.node.titile}>
+            <img className="slide-image" src={currentSlide.node.image.sizes.src} alt={currentSlide.node.titile} />
+            <h2 className="slide-title bullet bullet-bg-orange no-margin">{currentSlide.node.titile}</h2>
+            <div className="subtitle">{currentSlide.node.subtitle}</div>
+            <p>{currentSlide.node.content}</p>
           </article>
         </CSSTransitionGroup>
       </div>
     )
   }
-}
-
-Slider.propTypes = {
-  duration: PropTypes.number,
-  slides: PropTypes.arrayOf(PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    subtitle: PropTypes.string,
-    content: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-  })).isRequired,
 }
 
 Slider.defaultProps = {
