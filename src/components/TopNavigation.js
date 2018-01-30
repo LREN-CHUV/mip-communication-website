@@ -8,33 +8,33 @@ import './TopNavigation.css'
 export default () => (
   <div role="navigation">
     <ul className="top-navigation clear">
-      <li className="align-left">
+      <li className="align-left1">
         <Link to="/" className="hoverable bullet">Home</Link>
       </li>
-      <li className="align-left">
+      <li className="align-left1">
         <a href="#" className="hoverable bullet">Overview</a>
         <ul className="top-navigation-submenu">
           <li className="hoverable bullet"><Link to="/overview/about-us">About us</Link></li>
           <li className="hoverable bullet"><Link to="/overview/how-it-works">How it works</Link></li>
         </ul>
       </li>
-      <li className="align-left">
+      <li className="align-left1">
         <Link to="/health-partners" className="hoverable bullet">Health partners</Link>
         <ul className="top-navigation-submenu">
           <li className="hoverable bullet"><Link to="/health-partners/hospitals">Hospitals</Link></li>
           <li className="hoverable bullet"><Link to="/health-partners/cohorts">Cohorts</Link></li>
         </ul>
       </li>
-      <li className="align-left">
+      <li className="align-left1">
         <Link to="/documentation" className="hoverable bullet">Documentation</Link>
       </li>
-      <li className="align-left">
+      <li className="align-left1">
         <Link to="/news-and-events" className="hoverable bullet">News and events</Link>
       </li>
-      <li className="align-left">
+      <li className="align-left1">
         <Link to="/contact" className="hoverable bullet">Contact</Link>
       </li>
-      <li className="align-right">
+      <li className="align-right1">
         <a
           href="https://services.humanbrainproject.eu/oidc/login"
           target="_blank"

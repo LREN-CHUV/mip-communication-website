@@ -1,19 +1,34 @@
 .top-navigation {
-  padding: 25px 150px;
+  padding: 0px 20px;
   font-size: 1.1em;
   line-height: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media(min-width: 768px) {
+  .top-navigation {
+    padding: 0px 150px;
+  }
 }
 
 .top-navigation > li {
   margin-right: 30px;
   position: relative;
 }
+.top-navigation > li:last-child {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 0;
+}
 
 .top-navigation-submenu {
   display: none;
   position: absolute;
-  top: 0;
-  margin-top: 3em;
+  top: 3em;
+  background: rgba(255, 255, 255, .95);
+  z-index: 2;
 }
 
 .top-navigation-submenu li {

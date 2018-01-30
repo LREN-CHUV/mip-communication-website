@@ -6,6 +6,7 @@ import hbpLogo from '../assets/HBP_logo.svg'
 
 export default () => (
   <div>
+    <TopNavigation />
     <div className="header">
       <a href="https://www.humanbrainproject.eu" className="hbp-logo">
         <img src={hbpLogo} alt="Human Brain Project logo" />
@@ -18,6 +19,6 @@ export default () => (
     </div>
 
     <HBPRainbowLine />
-    <TopNavigation />
+
   </div>
 )

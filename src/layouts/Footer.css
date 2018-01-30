@@ -1,0 +1,11 @@
+.footer {
+  box-sizing: border-box;
+  background-color: #145C89;
+  color: #fff;
+}
+
+@media(min-width: 768px) {
+  .footer {
+    padding: 0px 150px;
+  }
+}
