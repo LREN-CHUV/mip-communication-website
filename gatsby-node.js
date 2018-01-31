@@ -9,7 +9,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     graphql(
       `
         {
-          allContentfulNewsOnMain (limit: 100) {
+          allContentfulHome (limit: 100) {
             edges {
               node {
                 id
@@ -24,13 +24,13 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         reject(result.errors)
       }
 
-      const newsOnMainTemplate = path.resolve(`./src/templates/news-on-main.js`)
+      const homeTemplate = path.resolve(`./src/templates/home.js`)
 
-      _.each(result.data.allContentfulNewsOnMain.edges, edge => {
+      _.each(result.data.allContentfulHome.edges, edge => {
 
         createPage({
           path: `/article/${edge.node.id}/`,
-          component: slash(newsOnMainTemplate),
+          component: slash(homeTemplate),
           context: {
             id: edge.node.id,
           },
@@ -38,7 +38,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
       })
 
-      // resolve()
     })
 
     .then(() => {

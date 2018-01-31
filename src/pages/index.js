@@ -10,7 +10,7 @@ const propTypes = {
 
 class IndexPage extends Component {
   render() {
-    const usNewsOnMainEdges = this.props.data.us.edges
+    const usHomeEdges = this.props.data.us.edges
     return (
       <div>
         <h1 className="hidden">Home</h1>
@@ -33,7 +33,7 @@ class IndexPage extends Component {
         </section>
         <section>
           <h2 className="bullet bullet-outline bullet-border-red">Latest news</h2>
-          <NewsList news={usNewsOnMainEdges} />
+          <NewsList news={usHomeEdges} />
         </section>
       </div>
     )
@@ -46,13 +46,13 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query pageQuery {
-    us: allContentfulNewsOnMain(filter: {
+    us: allContentfulHome(filter: {
       node_locale: { eq: "en-US" }
     }) {
       edges {
         node {
           id
-          titile
+          title
           subtitle
           image {
             title
@@ -70,8 +70,8 @@ export const pageQuery = graphql`
               srcSet
             }
           }
-          content
-          fullContent {
+          preview
+          content {
             childMarkdownRemark {
               html
             }

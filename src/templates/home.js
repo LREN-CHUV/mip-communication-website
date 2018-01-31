@@ -2,23 +2,23 @@ import React, { Component } from "react"
 import PropTypes from "prop-types"
 import Img from "gatsby-image"
 
-class NewsOnMain extends Component {
+class Home extends Component {
   render() {
-    const news = this.props.data.contentfulNewsOnMain
+    const news = this.props.data.contentfulHome
     const {
-      titile,
+      title,
       subtitle,
       image,
-      fullContent
+      content
     } = news
     return (
       <article>
-        <h1>{titile}</h1>
+        <h1>{title}</h1>
         <p>{subtitle}</p>
-        <Img  sizes={image.sizes} />
+        <Img sizes={image.sizes} />
         <div
           dangerouslySetInnerHTML={{
-            __html: fullContent.childMarkdownRemark.html,
+            __html: content.childMarkdownRemark.html,
           }}
         />
       </article>
@@ -26,17 +26,17 @@ class NewsOnMain extends Component {
   }
 }
 
-NewsOnMain.PropTypes = {
+Home.PropTypes = {
   data: PropTypes.object.isRequired
 }
 
-export default NewsOnMain
+export default Home
 
 export const pageQuery = graphql`
-  query newsOnMainQuery($id: String!) {
-    contentfulNewsOnMain(id : { eq: $id }) {
+  query homeQuery($id: String!) {
+    contentfulHome(id : { eq: $id }) {
       id
-      titile
+      title
       subtitle
       image {
         title
@@ -54,8 +54,8 @@ export const pageQuery = graphql`
           srcSet
         }
       }
-      content
-      fullContent {
+      preview
+      content {
         childMarkdownRemark {
           html
         }
