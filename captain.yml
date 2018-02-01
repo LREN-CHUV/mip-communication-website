@@ -1,0 +1,9 @@
+# Builder image
+# Creates a portable environemnt to build this project.
+portal-frontend:
+  build: Dockerfile
+  image: hbpmip/portal-frontend-static
+  pre:
+    - echo "Preparing static frontend lightweight image"
+  post:
+    - echo "Finished static frontend lightweight image"

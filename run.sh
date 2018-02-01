@@ -12,9 +12,9 @@ done
 
 if [ $no_cache ] ; then
     echo "INFO: --no-cache"
-    docker build --no-cache -t hbpmip/portal-frontend-static-dev -f ./Dockerfile-dev .
+    docker build --no-cache -t hbpmip/portal-frontend-static-dev -f ./Dockerfile .
 else
-    docker build -t hbpmip/portal-frontend-static-dev -f ./Dockerfile-dev .
+    docker build -t hbpmip/portal-frontend-static-dev -f ./Dockerfile .
 fi
 
 docker run -it --rm -p3000:3000 --name portal_frontend_static_dev hbpmip/portal-frontend-static-dev
