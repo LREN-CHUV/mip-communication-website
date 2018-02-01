@@ -1,0 +1,15 @@
+FROM node:7.10.1
+
+WORKDIR /frontend-static
+
+RUN npm install -g localtunnel
+RUN npm install --global gatsby-cli
+
+COPY package.json /frontend-static
+RUN npm install
+
+COPY . /frontend-static
+
+RUN gatsby build
+
+CMD ["sh", "dockerCmd.sh"]
