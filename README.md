@@ -22,3 +22,11 @@ Gatsby will start a hot-reloading development environment accessible at localhos
 ```sh
   gatsby develop
 ```
+
+Temporary note
+TODO: use in develop mode
+```sh
+  npm install --global surge
+  surge public/
+  npm install -g localtunnel
+```
