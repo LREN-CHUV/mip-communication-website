@@ -10,7 +10,8 @@
     "serve": "node ./bin/www",
     "tunnel": "lt --port 3000 --subdomain mipcommunication",
     "develop": "npm run build tunnel serve",
-    "heroku-run": "npm run build serve"
+    "heroku-prebuild": "gatsby build",
+    "heroku-run": "npm run heroku-prebuild serve"
   },
   "author": "james.nolan@chuv.ch",
   "license": "ISC",
