@@ -29,4 +29,6 @@ TODO: use in develop mode
   npm install --global surge
   surge public/
   npm install -g localtunnel
+  npm install netlify-cli -g
+  netlify deploy
 ```
