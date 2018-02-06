@@ -9,7 +9,8 @@
     "build": "./node_modules/.bin/gatsby build",
     "serve": "node ./bin/www",
     "tunnel": "lt --port 3000 --subdomain mipcommunication",
-    "develop": "npm run build tunnel serve"
+    "develop": "npm run build tunnel serve",
+    "heroku-run": "npm run build serve"
   },
   "author": "james.nolan@chuv.ch",
   "license": "ISC",
