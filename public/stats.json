@@ -1,0 +1,112 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-5867b8582ca01f7c3b0a.js",
+      "component---src-pages-index-js-5867b8582ca01f7c3b0a.js.map"
+    ],
+    "path---overview-about-us": [
+      "path---overview-about-us-a0e39f21c11f6a62c5ab.js",
+      "path---overview-about-us-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---health-partners": [
+      "path---health-partners-a0e39f21c11f6a62c5ab.js",
+      "path---health-partners-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-health-partners-hospitals-js": [
+      "component---src-pages-health-partners-hospitals-js-26ba2f9686f165655b67.js",
+      "component---src-pages-health-partners-hospitals-js-26ba2f9686f165655b67.js.map"
+    ],
+    "component---src-pages-overview-about-us-js": [
+      "component---src-pages-overview-about-us-js-ccd2714955745e67bdaf.js",
+      "component---src-pages-overview-about-us-js-ccd2714955745e67bdaf.js.map"
+    ],
+    "path---health-partners-cohorts": [
+      "path---health-partners-cohorts-a0e39f21c11f6a62c5ab.js",
+      "path---health-partners-cohorts-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-news-and-events-js": [
+      "component---src-pages-news-and-events-js-3ef9d65a9be96f5e2838.js",
+      "component---src-pages-news-and-events-js-3ef9d65a9be96f5e2838.js.map"
+    ],
+    "path---documentation": [
+      "path---documentation-a0e39f21c11f6a62c5ab.js",
+      "path---documentation-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-59093e280880243d966f.js",
+      "component---src-layouts-index-js-59093e280880243d966f.js.map"
+    ],
+    "path---index": [
+      "path---index-92666a5de1b708b756ad.js",
+      "path---index-92666a5de1b708b756ad.js.map"
+    ],
+    "path---overview-how-it-works": [
+      "path---overview-how-it-works-a0e39f21c11f6a62c5ab.js",
+      "path---overview-how-it-works-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-health-partners-index-js": [
+      "component---src-pages-health-partners-index-js-2ac8c0902f69b905a437.js",
+      "component---src-pages-health-partners-index-js-2ac8c0902f69b905a437.js.map"
+    ],
+    "component---src-templates-news-and-events-template-js": [
+      "component---src-templates-news-and-events-template-js-84602b30e87143653512.js",
+      "component---src-templates-news-and-events-template-js-84602b30e87143653512.js.map"
+    ],
+    "commons": [
+      "commons-281b5483fb51116d1439.js",
+      "build-js-styles.css",
+      "commons-281b5483fb51116d1439.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---article-c-2-e-shc-5-x-j-84-ykiu-qg-s-wewe-c": [
+      "path---article-c-2-e-shc-5-x-j-84-ykiu-qg-s-wewe-c-69291dab159a6474dee6.js",
+      "path---article-c-2-e-shc-5-x-j-84-ykiu-qg-s-wewe-c-69291dab159a6474dee6.js.map"
+    ],
+    "path---article-c-6-z-3-sy-99-r-9-cq-u-2-cc-iq-cyws": [
+      "path---article-c-6-z-3-sy-99-r-9-cq-u-2-cc-iq-cyws-91aad679d5c89d79e50b.js",
+      "path---article-c-6-z-3-sy-99-r-9-cq-u-2-cc-iq-cyws-91aad679d5c89d79e50b.js.map"
+    ],
+    "component---src-pages-documentation-js": [
+      "component---src-pages-documentation-js-9a02ac29a54ae2ee516b.js",
+      "component---src-pages-documentation-js-9a02ac29a54ae2ee516b.js.map"
+    ],
+    "component---src-pages-overview-how-it-works-js": [
+      "component---src-pages-overview-how-it-works-js-e138dfaa660adc8a4071.js",
+      "component---src-pages-overview-how-it-works-js-e138dfaa660adc8a4071.js.map"
+    ],
+    "component---src-pages-health-partners-cohorts-js": [
+      "component---src-pages-health-partners-cohorts-js-f525af0828405fd020ca.js",
+      "component---src-pages-health-partners-cohorts-js-f525af0828405fd020ca.js.map"
+    ],
+    "path---article-c-5-p-f-9-xz-u-1-miy-4-s-g-ae-0-ko-6-e-m": [
+      "path---article-c-5-p-f-9-xz-u-1-miy-4-s-g-ae-0-ko-6-e-m-430d7ebcaab1d22d3da4.js",
+      "path---article-c-5-p-f-9-xz-u-1-miy-4-s-g-ae-0-ko-6-e-m-430d7ebcaab1d22d3da4.js.map"
+    ],
+    "app": [
+      "app-76115fcf5d780103fbe5.js",
+      "build-js-styles.css",
+      "app-76115fcf5d780103fbe5.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---news-and-events": [
+      "path---news-and-events-ff710571de0b589c160e.js",
+      "path---news-and-events-ff710571de0b589c160e.js.map"
+    ],
+    "path---article-c-1-uhe-3-u-vm-j-squ-go-4-mk-6-m-g-gi": [
+      "path---article-c-1-uhe-3-u-vm-j-squ-go-4-mk-6-m-g-gi-689b4c6c6ba23329441a.js",
+      "path---article-c-1-uhe-3-u-vm-j-squ-go-4-mk-6-m-g-gi-689b4c6c6ba23329441a.js.map"
+    ],
+    "path---health-partners-hospitals": [
+      "path---health-partners-hospitals-a0e39f21c11f6a62c5ab.js",
+      "path---health-partners-hospitals-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-templates-home-js": [
+      "component---src-templates-home-js-7051d8cf9272c2fea885.js",
+      "component---src-templates-home-js-7051d8cf9272c2fea885.js.map"
+    ]
+  }
+}
