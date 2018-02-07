@@ -38,23 +38,6 @@ export const pageQuery = graphql`
       id
       title
       subtitle
-      image {
-        title
-        resolutions {
-          src
-          width
-          height
-          srcSet
-          aspectRatio
-        }
-        sizes(maxWidth: 2000) {
-          sizes
-          aspectRatio
-          src
-          srcSet
-        }
-      }
-      preview
       content {
         childMarkdownRemark {
           html
