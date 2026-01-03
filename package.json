@@ -10,7 +10,7 @@
   "author": "james.nolan@chuv.ch",
   "license": "ISC",
   "dependencies": {
-    "gatsby": "^1.2.0",
+    "gatsby": "^2.32.8",
     "gatsby-link": "^1.0.9",
     "lodash.groupby": "^4.6.0",
     "prop-types": "^15.5.10",
